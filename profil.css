@@ -1,0 +1,80 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #57eec1c5; 
+    color: #333;
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    min-height: 100vh;      
+}
+
+.card {
+    max-width: auto; 
+    border: none; 
+    border-radius: 20px; 
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); 
+    background-color: #f3f0f0; /* Warna background card */
+}
+
+
+/* Gambar Profil */
+.img-fluid {
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+
+
+
+/* Card Body */
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #0f0f0f; 
+}
+
+.card-text {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #555; 
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+strong {
+    color: #0f0f0f; 
+}
+
+/* Bio  */
+.card-text strong {
+    color: #333;
+    font-style: italic; 
+}
+
+
+/* Responsive  */
+@media (max-width: 768px) {
+    .card {
+        max-width: 100%; 
+    }
+    
+    .img-fluid {
+        border-radius: 25px 25px 0 0;
+    }
+}
